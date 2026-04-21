@@ -1,0 +1,45 @@
+# Configuration for Payment Gateway ETL Pipeline
+
+database:
+  host: localhost
+  port: 5432
+  database: payment_gateway_db
+  user: postgres
+  password: your_password_here
+  
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  backup_dir: data/backups
+  
+etl:
+  batch_size: 1000
+  enable_parallel_processing: true
+  num_workers: 4
+  
+data_generation:
+  num_merchants: 50
+  num_customers: 1000
+  num_transactions: 10000
+  
+quality_checks:
+  enable_anomaly_detection: true
+  max_null_percentage: 5
+  min_success_rate: 80
+  
+logging:
+  level: INFO
+  file: logs/pipeline.log
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  
+notifications:
+  email:
+    enabled: false
+    smtp_server: smtp.gmail.com
+    smtp_port: 587
+    from_address: alerts@paymentgateway.com
+    to_addresses:
+      - team@paymentgateway.com
+  slack:
+    enabled: false
+    webhook_url: https://hooks.slack.com/services/YOUR/WEBHOOK/URL
