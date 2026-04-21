@@ -69,7 +69,7 @@ This project demonstrates an **end-to-end data engineering pipeline** for proces
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture <a id="architecture"></a>
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -107,7 +107,7 @@ This project demonstrates an **end-to-end data engineering pipeline** for proces
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack <a id="tech-stack"></a>
 
 ### Backend
 - **Python 3.8+** - Core programming language
@@ -134,7 +134,7 @@ This project demonstrates an **end-to-end data engineering pipeline** for proces
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start <a id="quick-start"></a>
 
 ### Prerequisites
 - Docker Desktop installed
@@ -171,7 +171,7 @@ docker exec -it airflow-webserver airflow users create \
 
 ---
 
-## 📦 Installation
+## 📦 Installation <a id="installation"></a>
 
 ### Option 1: Docker (Recommended)
 
@@ -259,7 +259,7 @@ airflow scheduler &
 
 ---
 
-## 💻 Usage
+## 💻 Usage <a id="usage"></a>
 
 ### Generate Sample Data
 
@@ -330,7 +330,7 @@ docker exec -it airflow-scheduler \
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure <a id="project-structure"></a>
 
 ```
 ecommerce-payment-gateway-db/
@@ -383,7 +383,7 @@ ecommerce-payment-gateway-db/
 
 ---
 
-## 📊 Screenshots
+## 📊 Screenshots <a id="screenshots"></a>
 
 ### Transaction Status Distribution
 ![Transaction Status](screenshots/01_transaction_status.png)
@@ -399,7 +399,7 @@ ecommerce-payment-gateway-db/
 
 ---
 
-## 📖 Documentation
+## 📖 Documentation <a id="documentation"></a>
 
 ### Database Schema
 
@@ -516,7 +516,7 @@ docker-compose ps
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributing <a id="contributing"></a>
 
 Contributions are welcome! Please follow these steps:
 
@@ -527,8 +527,7 @@ Contributions are welcome! Please follow these steps:
 5. Open a Pull Request
 
 ---
-
-## 📄 License
+## 📄 License <a id="license"></a>
 
 This project is for educational purposes as part of a Data Engineering Capstone.
 
@@ -551,13 +550,6 @@ Academic Year: 2025-2026
 
 ---
 
-## 📞 Support
-
-For issues or questions:
-- Open an issue on GitHub
-- Email: [your-email@example.com]
-
----
 
 ## 🔗 Links
 
