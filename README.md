@@ -543,7 +543,6 @@ Academic Year: 2025-2026
 
 ## 🙏 Acknowledgments
 
-- Anthropic Claude for code assistance
 - Apache Foundation for Kafka, Spark, and Airflow
 - PostgreSQL community
 - Data Engineering course materials
