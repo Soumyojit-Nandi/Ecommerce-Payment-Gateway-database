@@ -537,7 +537,6 @@ This project is for educational purposes as part of a Data Engineering Capstone.
 **Soumyojit Nandi**  
 Roll Number: 2306318  
 Email: 2306318@kiit.ac.in
-Institution: Kalinga Institute of Industrial Technology
 
 
 
