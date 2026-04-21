@@ -43,7 +43,7 @@ This project demonstrates an **end-to-end data engineering pipeline** for proces
 
 ---
 
-## ✨ Features
+## ✨ Features <a id="features"></a>
 
 ### Data Engineering Pipeline
 - **Realistic Data Generation**: 10,000+ transactions using statistical distributions
