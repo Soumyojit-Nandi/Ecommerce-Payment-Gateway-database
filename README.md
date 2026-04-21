@@ -336,7 +336,6 @@ docker exec -it airflow-scheduler \
 ecommerce-payment-gateway-db/
 ├── README.md                          # This file
 ├── docker-compose.yml                 # Docker services configuration
-├── requirements.txt                   # Python dependencies (basic)
 ├── requirements_full.txt              # Full dependencies (Kafka, Spark, Airflow)
 ├── SETUP_GUIDE.md                     # Detailed setup instructions
 ├── QUICK_START_GUIDE.md               # Quick reference guide
@@ -537,7 +536,9 @@ This project is for educational purposes as part of a Data Engineering Capstone.
 
 **Soumyojit Nandi**  
 Roll Number: 2306318  
-Academic Year: 2025-2026
+Institution: Kalinga Institute of Industrial Technology
+Email: 2306318@kiit.ac.in
+
 
 ---
 
